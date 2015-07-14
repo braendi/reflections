@@ -3,3 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - it contains only files "in transfer". maybe i can still reconsider my decision and remove it from there before i commit. or maybe it is a kind of 'local' commit before i expose my changes to everyone.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- i add with git add until a logical change is complett, the i git commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- when i'm not yet shure, if the new code will ever go into production. and also, when i make changes during a long period, while the productive branch must still be maintained
