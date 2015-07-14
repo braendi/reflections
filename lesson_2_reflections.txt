@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 - a .git directory is created, to tell git, that my directory is under version control from now on
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- it contains only files "in transfer". maybe i can still reconsider my decision and remove it from there before i commit. or maybe it is a kind of 'local' commit before i expose my changes to everyone.
