@@ -9,3 +9,14 @@ Describe the differences between forks, clones, and branches. When would you use
 - i use clones, when i want to work on a copy of an other persons repository without the need to merge back on it
 - i use forks, when the source repository is on GitHub
 - i use branches, when i don't want to influence other developers working on the same project, but still want to check-in my work 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- i can merge 'offline', the risk of merge conflicts is lower, the 'nearer' i am at the state of the remote
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- i would have to send my merge requests by mail and/or using a shared folder
+- easier: i would not have to install git and to register at github
+- harder: everything else, i guess
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- see lesson 2
